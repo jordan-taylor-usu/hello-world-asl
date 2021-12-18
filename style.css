@@ -1,0 +1,63 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    text-align: center;
+}
+
+svg {
+    color: #E5B0A5;
+}
+
+hand-r {
+    animation: a 2s ease infinite;
+    /* animation-fill-mode: forwards; */
+    /* transform-origin: bottom; */
+    /* transform-box: fill-box; */
+}
+
+/* #intermediate-2-r, #intermediate-3-r, #intermediate-4-r, #intermediate-5-r{
+    animation: fold 1s ease;
+    animation-fill-mode: forwards;
+    transform-origin: bottom;
+    transform-box: fill-box;
+}
+
+
+#thumb-r, #distal-1-r {
+    animation: a 1s ease;
+    animation-fill-mode: forwards;
+    transform-origin: bottom;
+    transform-box: fill-box;
+} */
+
+@keyframes wag{
+    from{
+        transform: rotateZ(-10deg);
+    }
+    to{
+        transform: rotateZ(20deg);
+    }
+}
+
+
+@keyframes a{
+    from{
+        transform: rotateZ(0deg);
+    }
+    to{
+        transform: rotateZ(-20deg);
+    }
+}
+
+@keyframes fold{
+    from{
+        transform: rotateX(0deg);
+    }
+    to{
+        transform: rotateX(180deg);
+    }
+}
