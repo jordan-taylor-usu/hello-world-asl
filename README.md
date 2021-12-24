@@ -1,8 +1,8 @@
 # Hello World ASL  
-_The aim of this program is to teach American Sign Language (ASL) in a fun and engaging way. My wife and I recently went out to eat for our fifth anniversary and over the din of the restaurant our waiter used signs as a courtesy which I found exciting and fascinating. My wife is a MSW and uses ASL when working with nonverbal children. We have two infants and incorporate ASL into our parenting style. I have trained our two dogs to respond to basic ASL hand signals such as sit, down, and no, which allows me to communicate to them silently and increases their attention on me. ASL is an increasingly valuable skill for accessibility and convenience, but many ASL resources are expensive, inaccessible, and complicated. I have a background in web developing and 3D modeling, and through this project I hope to combine those and also explore machine learning. Contribute to this open-source project and increase your dev skills to promote ASL learning everywhere!_ 
+The aim of this program is to teach American Sign Language (ASL) in a fun and engaging way. My wife and I recently went out to eat for our fifth anniversary and over the din of the restaurant our waiter used signs as a courtesy which I found exciting and fascinating. My wife is a MSW and uses ASL when working with nonverbal children. We have two infants and incorporate ASL into our parenting style. I have trained our two dogs to respond to basic ASL hand signals such as sit, down, and no, which allows me to communicate to them silently and increases their attention on me. ASL is an increasingly valuable skill for accessibility and convenience, but many ASL resources are expensive, inaccessible, and complicated. I have a background in web developing and 3D modeling, and through this project I hope to combine those and also explore machine learning. Contribute to this open-source project and increase your dev skills to promote ASL learning everywhere! 
 
 ## v1 - basic functionality, proof of concept (CURRENT)  
-_V1 is a responsive webpage built on Bootstrap 5 to display both a message and a scalable vector graphic (svg). The initial svg is animated with CSS. Javascript is used to change the svg on click while highlighting the corresponding displayed letter._  
+V1 is a responsive webpage built on Bootstrap 5 to display both a message and a scalable vector graphic (svg). The initial svg is animated with CSS. Javascript is used to change the svg on click while highlighting the corresponding displayed letter.  
 - greeting animation
 - click to progress
 - letter highlighting
@@ -12,7 +12,7 @@ _V1 is a responsive webpage built on Bootstrap 5 to display both a message and a
 <img src="images/v1-demo.gif" width="100%"/>
 
 ## v2 - SVG Transitions
-_V2 will utilize svg transition animations, condensing all svgs into one in a more functional approach. User-controlled variables will be added via Javascript. The site will also be hosted._  
+V2 will utilize svg transition animations, condensing all svgs into one in a more functional approach. User-controlled variables will be added via Javascript. The site will also be hosted.  
 - host site  
 - domain name  
 - entire ASL alphabet and numbers
@@ -29,7 +29,7 @@ _V2 will utilize svg transition animations, condensing all svgs into one in a mo
 - [shapeshifter](https://shapeshifter.design/)  
 
 ## v3 - 3D Modeling  
-_v3 is a complete remake to utilize 3D graphics. A hand model is scanned via photogrammetry and rigged in Blender. The rendering approach is tbd._
+v3 is a complete remake to utilize 3D graphics. A hand model is scanned via photogrammetry and rigged in Blender. The rendering approach is tbd.
 - 3D model  
 - rigging  
 
@@ -42,7 +42,7 @@ _v3 is a complete remake to utilize 3D graphics. A hand model is scanned via pho
 - blender + verge3d  
 
 ## v4 - 3D Modeling (contd)  
-_v4 adds a torso and second hand to the animation to utilize full ASL signs._  
+v4 adds a torso and second hand to the animation to utilize full ASL signs.  
 - torso, mirror hand model  
 - ASL signs (basic)  
 - possible VR support  
@@ -50,10 +50,10 @@ _v4 adds a torso and second hand to the animation to utilize full ASL signs._
 - mixamo  
 
 ## v5 - Machine Learning  
-_v5 aims to use machine learning to teach the program ASL signs by uploading videos and transcripts. This will automate the progran's vocabulary. When a phrase is entered into the text box, the program should return a valid response._  
+v5 aims to use machine learning to teach the program ASL signs by uploading videos and transcripts. This will automate the progran's vocabulary. When a phrase is entered into the text box, the program should return a valid response.  
 - machine learning  
 - user testing and verification  
 
 ## v6 - 3rd Party Integration  
-_v6 will integrate the program with third parties such as bitmoji to allow customizable gifs to be sent over text messages. This is the deployment stage of the program._  
+v6 will integrate the program with third parties such as bitmoji to allow customizable gifs to be sent over text messages. This is the deployment stage of the program.  
 - bitmoji  
