@@ -45,14 +45,21 @@ v3 is a complete remake to utilize 3D graphics. A hand model is scanned via phot
 v4 adds a torso and second hand to the animation to utilize full ASL signs.  
 - torso, mirror hand model  
 - ASL signs (basic)  
+- Additional hand signs - separate lists  
+  * dog training  
+  * baby basics
+  * SCUBA  
+  * Ski  
+  * military  
+  * motorcycle  
 - possible VR support  
 ### Potential Resources  
 - mixamo  
 
 ## v5 - Machine Learning  
-v5 aims to use machine learning to teach the program ASL signs by uploading videos and transcripts. This will automate the progran's vocabulary. When a phrase is entered into the text box, the program should return a valid response.  
+v5 aims to use machine learning to teach the program ASL signs by uploading videos and transcripts. This will automate the progran's vocabulary. When a phrase is entered into the text box, the program should return a valid interpretative response.  
 - machine learning  
-- user testing and verification  
+- user testing and verification   
 
 ## v6 - 3rd Party Integration  
 v6 will integrate the program with third parties such as bitmoji to allow customizable gifs to be sent over text messages. This is the deployment stage of the program.  
