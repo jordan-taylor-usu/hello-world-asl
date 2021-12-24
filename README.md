@@ -8,6 +8,13 @@ V1 is a responsive webpage built on Bootstrap 5 to display both a message and a 
 - letter highlighting
 - 8 letters of the ASL alphabet (a, d, e, h, l, o, r, w)
 
+### Toolstack
+- Adobe Illustrator for initial SVG
+- Figma for alphabet SVGs
+- Visual Studio Code for IDE
+- [Bootstrap](https://getbootstrap.com/docs/5.0/getting-started/introduction/) for BS5
+- Screencastify for gif
+
 [Codepen](https://codepen.io/jordan-taylor-usu/pen/rNGYVye) (svgs currently unavailable)
 <img src="images/v1-demo.gif" width="100%"/>
 
@@ -32,14 +39,16 @@ V2 will utilize svg transition animations, condensing all svgs into one in a mor
 v3 is a complete remake to utilize 3D graphics. A hand model is scanned via photogrammetry and rigged in Blender. The rendering approach is tbd.
 - 3D model  
 - rigging  
+- lighting  
+- surface scattering on skin
 
 ### Potential Resources  
 - [vectary](https://www.vectary.com/)  
-- three.js  
-- bablyon.js  
-- blend4web  
-- WebGL  
-- blender + verge3d  
+- [three.js](https://threejs.org/)  
+- [bablyon.js](https://www.babylonjs.com/)  
+- [blend4web](https://www.blend4web.com/en/)  
+- [WebGL](https://get.webgl.org/)  
+- [blender](https://www.blender.org/) + [verge3d](https://www.soft8soft.com/verge3d/)  
 
 ## v4 - 3D Modeling (contd)  
 v4 adds a torso and second hand to the animation to utilize full ASL signs.  
