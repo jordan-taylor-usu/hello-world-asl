@@ -2,7 +2,7 @@ body {
     text-align: center;
 }
 
-.greeting:hover {
+.greeting {
     animation: wave 1.5s ease-in-out infinite alternate;
     animation-fill-mode: forwards;
     transform-origin: bottom;
