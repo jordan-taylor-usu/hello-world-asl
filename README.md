@@ -1,7 +1,7 @@
-# Hello World ASL - Open Source  
+# Hello World ASL - Open Source (currently v1)  
 The aim of this program is to teach American Sign Language (ASL) in a fun and engaging way. My wife and I recently went out to eat for our fifth anniversary and over the din of the restaurant our waiter used signs as a courtesy which I found exciting and fascinating. My wife is a MSW and uses ASL when working with nonverbal children. We have two infants and incorporate ASL into our parenting style. I have trained our two dogs to respond to basic ASL hand signals such as sit, down, and no, which allows me to communicate to them silently and increases their attention on me. ASL is an increasingly valuable skill for accessibility and convenience, but many ASL resources are expensive, inaccessible, and complicated. I have a background in web developing and 3D modeling, and through this project I hope to combine those and also explore machine learning. Contribute to this open-source project and increase your dev skills to promote ASL learning everywhere! 
 
-## v1 - basic functionality, proof of concept (CURRENT)  
+## v1 (CURRENT) - basic functionality, proof of concept  
 V1 is a responsive webpage built on Bootstrap 5 to display both a message and a scalable vector graphic (svg). The initial svg is animated with CSS. Javascript is used to change the svg on click while highlighting the corresponding displayed letter.  
 - greeting animation
 - click to progress
