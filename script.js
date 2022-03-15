@@ -11,8 +11,8 @@ btn1.addEventListener('click', fun1);
 // end test
 
 var count = 0;
-// const message = 'Hello, world!';
-const message = 'abcdefghijklmnopqrstuvwxyz';
+const message = 'Hello, world!';
+// const message = 'abcdefghijklmnopqrstuvwxyz';
 var letters = Array.from(message.replace(/\W/g, ''));
 
 document.title = message;
@@ -24,7 +24,8 @@ function changeSVG() {
     var letter = letters[count % letters.length];
     svgImage.src = "images/alphabet/" + letter.toLowerCase() + ".svg";
     svgImage.alt = "asl letter " + letter;
-    highlightLetter(count);
+    // highlightLetter1(count);
+    highlightLetter2(count);
     count++;
 }
 
@@ -36,7 +37,7 @@ function removeAnimation(svgImage) {
 }
 
 // highlight the current corresponding letter
-function highlightLetter(count) {
+function highlightLetter1(count) {
     var colorText = "";
     for (var i = 0; i < letters.length; i++) {
         if (i == count % letters.length) {
@@ -49,23 +50,23 @@ function highlightLetter(count) {
 }
 
 // Hard-coded punctuation for "hello, world!"
-// function highlightLetter(count) {
-//     var colorText = "";
-//     for (var i = 0; i < 5; i++) {
-//         if (i == count % 10) {
-//             colorText += "<span style=\"color: red;\">" + letters[i] + "</span>"
-//         } else {
-//             colorText += letters[i];
-//         }
-//     }
-//     colorText += ", ";
-//     for (var i = 5; i < 10; i++) {
-//         if (i == count % 10) {
-//             colorText += "<span style=\"color: red;\">" + letters[i] + "</span>"
-//         } else {
-//             colorText += letters[i];
-//         }
-//     }
-//     colorText += "!";
-//     document.getElementById("letters").innerHTML = colorText;
-// }
+function highlightLetter2(count) {
+    var colorText = "";
+    for (var i = 0; i < 5; i++) {
+        if (i == count % 10) {
+            colorText += "<span style=\"color: red;\">" + letters[i] + "</span>"
+        } else {
+            colorText += letters[i];
+        }
+    }
+    colorText += ", ";
+    for (var i = 5; i < 10; i++) {
+        if (i == count % 10) {
+            colorText += "<span style=\"color: red;\">" + letters[i] + "</span>"
+        } else {
+            colorText += letters[i];
+        }
+    }
+    colorText += "!";
+    document.getElementById("letters").innerHTML = colorText;
+}
